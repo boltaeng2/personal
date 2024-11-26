@@ -1,0 +1,5 @@
+header div.wrap ul li a:hover{
+  background-color: #fff;
+  color: #222;
+  border-radius: 15px;
+}

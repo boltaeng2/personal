@@ -1,0 +1,11 @@
+/* basic */
+.wrap{
+    max-width: 1903px;
+    margin: 0 auto;
+}
+.block{
+    display: block;
+}
+.none{
+    display: none;
+}

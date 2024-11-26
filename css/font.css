@@ -1,0 +1,163 @@
+/* size */
+.fs-0{
+    font-size: 0px;
+}
+.fs-1{
+    font-size: 4px;
+}
+.fs-2{
+    font-size: 8px;
+}
+.fs-3{
+    font-size: 12px;
+}
+.fs-4{
+    font-size: 16px;
+}
+.fs-5{
+    font-size: 20px;
+}
+.fs-6{
+    font-size: 24px;
+}
+.fs-7{
+    font-size: 28px;
+}
+.fs-8{
+    font-size: 32px;
+}
+.fs-9{
+    font-size: 36px;
+}
+.fs-10{
+    font-size: 40px;
+}
+.fs-11{
+    font-size: 44px;
+}
+.fs-12{
+    font-size: 48px;
+}
+.fs-13{
+    font-size: 52px;
+}
+.fs-14{
+    font-size: 56px;
+}
+.fs-15{
+    font-size: 60px;
+}
+.fs-16{
+    font-size: 64px;
+}
+.fs-17{
+    font-size: 68px;
+}
+.fs-18{
+    font-size: 72px;
+}
+.fs-19{
+    font-size: 76px;
+}
+.fs-20{
+    font-size: 80px;
+}
+.fs-21{
+    font-size: 84px;
+}
+.fs-22{
+    font-size: 88px;
+}
+.fs-23{
+    font-size: 92px;
+}
+.fs-24{
+    font-size: 96px;
+}
+.fs-25{
+    font-size: 100px;
+}
+.fs-26{
+    font-size: 104px;
+}
+.fs-27{
+    font-size: 108px;
+}
+.fs-28{
+    font-size: 112px;
+}
+.fs-29{
+    font-size: 116px;
+}
+.fs-30{
+    font-size: 120px;
+}
+
+
+
+/* font-color */
+.fc-1{
+    color: #111;
+}
+.fc-2{
+    color: #222;
+}
+.fc-3{
+    color: #333;
+}
+.fc-4{
+    color: #444;
+}
+.fc-5{
+    color: #555;
+}
+.fc-6{
+    color: #666;
+}
+.fc-7{
+    color: #777;
+}
+.fc-8{
+    color: #888;
+}
+.fc-9{
+    color: #999;
+}
+.fc-c{
+    color: #ccc;
+}
+.fc-d{
+    color: #ddd;
+}
+.fc-e{
+    color: #eee;
+}
+.fc-f{
+    color: #fff;
+}
+.fc-orange{
+    color: orange;
+}
+.fc-orangered{
+    color: orangered;
+}
+
+
+
+/* style */
+.fw-n{
+    font-weight: normal;
+}
+.fw-b{
+    font-weight: bold;
+}
+
+
+
+/* decoration */
+.tt-up{
+    text-transform: uppercase;
+}
+.tt-cap{
+    text-transform: capitalize;
+}

@@ -1,0 +1,283 @@
+/* title */
+#title{
+}
+#title div.wrap{
+  width: 100%;
+  height: 100%;
+}
+#title div.wrap video{
+  width: 1920px;
+  object-fit: fill;
+}
+#title div.wrap p{
+  position: absolute;
+  z-index: 3;
+  top: 50%;
+  left: calc((50% - 500px) / 2);
+  font-family: "Roboto";
+}
+#title div.wrap div{
+    
+}
+#title div.wrap div ul{
+    
+}
+#title div.wrap div ul li{
+    
+}
+/* title end */
+
+
+
+/* profile */
+#profile{
+  background: #111;
+  border-bottom: 2px solid #222;
+}
+#profile div.wrap{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  padding: 100px;
+  row-gap: 100px;
+}
+#profile div.wrap > div > h3{
+  color: orange;
+  font-family: "Roboto";
+  margin-bottom: 30px;
+}
+#profile div.wrap h2{
+  grid-column: 1;
+  grid-row: 1;
+  font-family: "Roboto";
+  margin: 50px 0;
+}
+#profile div.wrap h2 span{
+  font-family: "Roboto";
+  color: #ff6c00;
+}
+#profile div.wrap p{
+  grid-column: 1;
+  grid-row: 3;
+}
+#profile div.wrap div.profile{
+  grid-column: 1;
+  grid-row: 2;
+}
+#profile div.wrap div.profile address{
+  width: 250px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#profile div.wrap div.profile address div{
+}
+#profile div.wrap div.profile address div span.address-01{
+  
+  display: inline-block;
+  width: 100px;
+}
+#profile div.wrap div.profile address div span.address-02{
+  text-transform: lowercase;
+}
+#profile div.wrap div.education{
+  grid-column: 2;
+  grid-row: 2;
+}
+#profile div.wrap div.education ul{
+  
+}
+#profile div.wrap div.education ul li{
+  
+}
+#profile div.wrap div.education ul li span{
+  
+}
+#profile div.wrap div.skills{
+  grid-column: 3;
+  grid-row: 2 / span 3;
+}
+#profile div.wrap div.skills ul{
+  
+}
+#profile div.wrap div.skills ul li{
+  text-transform: initial;
+}
+#profile div.wrap div.skill-icon{
+  grid-column: 3;
+  grid-row: 3;
+}
+#profile div.wrap div.skill-icon ul.fs-0{
+  display: flex;
+  column-gap: 10px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li{
+  
+}
+#profile div.wrap div.skill-icon ul.fs-0 li{
+  width: 40px;
+  height: 40px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li:nth-child(1){
+  background: url(../img/ico/adobe_photoshop_icon.png) no-repeat center;
+  background-size: 40px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li:nth-child(2){
+  background: url(../img/ico/adobe_illustrator_icon.png) no-repeat center;
+  background-size: 40px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li:nth-child(3){
+  background: url(../img/ico/html_icon.png) no-repeat center;
+  background-size: 40px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li:nth-child(4){
+  background: url(../img/ico/css_icon.png) no-repeat center;
+  background-size: 40px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li:nth-child(5){
+  background: url(../img/ico/javascript_icon.png) no-repeat center;
+  background-size: 40px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li:nth-child(6){
+  background: url(../img/ico/jquery_icon.png) no-repeat center;
+  background-size: 40px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li:nth-child(7){
+  background: url(../img/ico/sass_icon.png) no-repeat center;
+  background-size: 40px;
+}
+#profile div.wrap div.skill-icon ul.fs-0 li:nth-child(8){
+  background: url(../img/ico/vscode_icon.png) no-repeat center;
+  background-size: 40px;
+}
+#profile div.wrap div.career{
+  grid-column: 2;
+  grid-row: 3;
+}
+/* profile end */
+
+
+/* portfolio */
+#portfolio{
+  
+}
+#portfolio div.wrap{
+  background: #111;
+  height: 100vh;
+  padding: 100px;
+	overflow: hidden;
+	position: relative;
+}
+#portfolio div.wrap p.marquee{
+	position: absolute;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	transform: translateX(100%); /* 왼쪽으로 이동, 오른쪽 이동 시:translateX의 값을 전부 반대로*/
+	animation: scroll-left 10s linear infinite; /* 키프레임 이름, 시간, 반응 속도, 반복여부 */
+	left: 0;
+}
+@keyframes scroll-left {
+	0% {transform: translateX(100%);}
+	100% {transform: translateX(-100%);}
+}
+#portfolio div.wrap h2{
+  width: fit-content;
+  position: absolute;
+  left: -34%;
+  top: 30%;
+}
+#portfolio div.wrap div.pf-list{
+  width: 1280px;
+  position: relative;
+  right: -30%;
+  bottom: -50%;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider{
+  display: flex;
+  /*! overflow: hidden; */
+  /*! position: relative; */
+}
+#portfolio div.wrap div.pf-list ul.pf-slider button{
+  width: 60px;
+  height: 60px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider button::before{
+  font-size: 90px;
+  color: #fff;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider button.slick-prev{
+  left: -35%;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider button.slick-next{
+  left: -25%;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider button.slick-prev, #portfolio div.wrap div.pf-list ul.pf-slider button.slick-next{
+  top: 80%;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li{
+  width: 375px !important;
+  height: 300px;
+  margin: 0px 25px;
+  background: #222;
+  border-radius: 20px;
+  transition: .3s;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li:hover a{
+  transform: scale(1.03);
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a{
+  display: flex;
+  flex-direction: column;
+  align-items: first baseline;
+  margin-right: 20px;
+  transition: .3s;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a figure{
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a figure.icon-01{
+  background: url(../img/ico/naver_icon.png) no-repeat center;
+  background-size: cover;
+  border-radius: 20px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a figure.icon-02{
+  background: url(../img/ico/laundry24_icon.png) no-repeat center;
+  background-size: cover;
+  border-radius: 20px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a figure.icon-03{
+  background: url(../img/ico/manyo_icon.png) no-repeat center;
+  background-size: cover;
+  border-radius: 20px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a figure.icon-04{
+  background: #444;
+  background-size: cover;
+  border-radius: 20px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a figure.icon-05{
+  background: #444;
+  background-size: cover;
+  border-radius: 20px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a figure.icon-06{
+  background: #444;
+  background-size: cover;
+  border-radius: 20px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a p.pf-name{
+  text-transform: capitalize;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a span.tools{
+  width: 335px;
+}
+#portfolio div.wrap div.pf-list ul.pf-slider li a p.pf-desc{
+  width: 335px;
+  border-top: 1px solid #ffffff25;
+  border-bottom: 1px solid #ffffff25;
+  margin: 10px 0;
+  padding: 10px 0;
+}

@@ -1,0 +1,97 @@
+/* notebook & tablet width (1024px ~ 1279px) */
+@media all and (max-width:1279px){ 
+    /* size */
+      .fs-0{
+          font-size: calc(0px * 0.7);
+        }
+      .fs-1{
+          font-size: calc(4px * 0.7);
+        }
+      .fs-2{
+          font-size: calc(8px * 0.7);
+        }
+      .fs-3{
+          font-size: calc(12px * 0.7);
+        }
+      .fs-4{
+          font-size: calc(16px * 0.7);
+        }
+      .fs-5{
+          font-size: calc(20px * 0.7);
+        }
+      .fs-6{
+          font-size: calc(24px * 0.7);
+        }
+      .fs-7{
+          font-size: calc(28px * 0.7);
+        }
+      .fs-8{
+          font-size: calc(32px * 0.7);
+        }
+      .fs-9{
+          font-size: calc(36px * 0.7);
+        }
+      .fs-10{
+          font-size: calc(40px * 0.7);
+        }
+      .fs-11{
+          font-size: calc(44px * 0.7);
+        }
+      .fs-12{
+          font-size: calc(48px * 0.7);
+        }
+      .fs-13{
+          font-size: calc(52px * 0.7);
+        }
+      .fs-14{
+          font-size: calc(56px * 0.7);
+        }
+      .fs-15{
+          font-size: calc(60px * 0.7);
+        }
+      .fs-16{
+          font-size: calc(64px * 0.7);
+        }
+      .fs-17{
+          font-size: calc(68px * 0.7);
+        }
+      .fs-18{
+          font-size: calc(72px * 0.7);
+        }
+      .fs-19{
+          font-size: calc(76px * 0.7);
+        }
+      .fs-20{
+          font-size: calc(80px * 0.7);
+        }
+      .fs-21{
+          font-size: calc(84px * 0.7);
+        }
+      .fs-22{
+          font-size: calc(88px * 0.7);
+        }
+      .fs-23{
+          font-size: calc(92px * 0.7);
+        }
+      .fs-24{
+          font-size: calc(96px * 0.7);
+        }
+      .fs-25{
+          font-size: calc(100px * 0.7);
+        }
+      .fs-26{
+          font-size: calc(104px * 0.7);
+        }
+      .fs-27{
+          font-size: calc(108px * 0.7);
+        }
+      .fs-28{
+          font-size: calc(112px * 0.7);
+        }
+      .fs-29{
+          font-size: calc(116px * 0.7);
+        }
+      .fs-30{
+          font-size: calc(120px * 0.7);
+        }
+      }

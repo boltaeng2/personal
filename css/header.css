@@ -1,0 +1,47 @@
+header{
+  position: fixed;
+  z-index: 99;
+}
+.active{
+  background-color: #cccccc25;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  -webkit-transition-duration:0.4s;
+  -webkit-transition-timing-function:ease;
+}
+.deactive{
+  background-color: transparent;
+  transition-duration: 0.5s;
+  transition-timing-function: ease;
+  -webkit-transition-duration:0.4s;
+  -webkit-transition-timing-function:ease;
+}
+header div.wrap{
+  display: flex;
+  align-items: center;
+  width: 1920px;
+  height: 100px;
+  justify-content: space-between;
+}
+header div.wrap h1.logo{
+  width: 100px;
+  height: 100px;
+  margin-left: 20px;
+  background: url(../img/ico/logo_orange.png) no-repeat center;
+  background-size: 100px;
+}
+header div.wrap ul{
+  display: flex;
+  column-gap: 40px;
+  margin-right: 50px;
+  position: relative;
+  right: 0;
+}
+header div.wrap ul li{
+  
+}
+header div.wrap ul li a{
+  padding: 10px 10px;
+  transition: .4s;
+  border-radius: 15px;
+}

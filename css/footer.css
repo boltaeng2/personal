@@ -1,0 +1,61 @@
+footer{
+  background-color: #222;
+}
+#footer{
+  
+}
+#footer div.wrap{
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+#footer div.wrap h1{
+  width: 50px;
+  height: 50px;
+  background: url(../img/ico/fit_logo_white.png) no-repeat center;
+  background-size: 50px;
+}
+#footer div.wrap ul.contact{
+  display: flex;
+  column-gap: 15px;
+  width: fit-content;
+  height: 30px;
+}
+#footer div.wrap ul.contact li{
+}
+#footer div.wrap ul.contact li:nth-child(1) a span{
+  background: url(../img/ico/instagram_icon.png) no-repeat center;
+  background-size: 30px;
+}
+#footer div.wrap ul.contact li:nth-child(2) a span{
+  background: url(../img/ico/naver_blog_icon.png) no-repeat center;
+  background-size: 30px;
+}
+#footer div.wrap ul.contact li:nth-child(3) a span{
+  background: url(../img/ico/github_icon.png) no-repeat center;
+  background-size: 30px;
+}
+#footer div.wrap ul.contact li:nth-child(4) a span{
+  background: url(../img/ico/gmail_icon.png) no-repeat center;
+  background-size: 30px;
+}
+#footer div.wrap ul.contact li a{
+  
+}
+#footer div.wrap ul.contact li a span{
+  width: 30px;
+  height: 30px;
+}
+#footer div.copyright{
+  
+  text-align: center;
+  border-top: 1px solid #eeeeee15;
+  padding: 10px 0;
+}
+#footer div.copyright p{
+  
+}
